@@ -1,0 +1,35 @@
+
+# MilDINO - 基于 DINOv3 和 RF-DETR 的目标检测大模型
+
+# 核心深度学习框架
+torch>=2.0.0
+torchvision>=0.15.0
+
+# 计算机视觉库
+numpy>=1.24.0
+Pillow>=9.5.0
+matplotlib>=3.7.0
+
+# 数据处理和可视化
+supervision>=0.14.0
+tqdm>=4.65.0
+
+# 模型导出和部署
+onnx>=1.14.0
+onnxruntime>=1.14.0
+onnxruntime-gpu>=1.14.0  # 用于 GPU 加速（可选）
+onnxsim>=0.4.17
+onnx_graphsurgeon>=0.3.28
+pycuda>=2022.2.2
+tensorrt>=8.6.1
+polygraphy>=0.47.0
+
+# 其他依赖
+opencv-python>=4.7.0
+scipy>=1.10.0
+scikit-image>=0.21.0
+
+# 开发和调试
+jupyter>=1.0.0  # 用于查看和调试代码（可选）
+ipywidgets>=8.0.0  # 用于 Jupyter 交互（可选）
+
